@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FakeNews</string>
+    <string name="no_data_available">no data available</string>
+    <string name="date">сортировать по дате</string>
+    <string name="topic">сортировать по теме</string>
+    <string name="author">сортировать по автору</string>
+    <string name="textNews">Новости</string>
+    <string name="radiobutton1">RadioButton!</string>
+    <string name="radiobutton2">RadioButton2</string>
+    <string name="radiobutton3">RadioButton3</string>
+    <string name="radiobutton4">RadioButton4</string>
+    <string name="sort">Сортировка</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
