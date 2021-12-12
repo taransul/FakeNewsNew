@@ -9,6 +9,12 @@
         <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNews/app/src/main/res/layout/fragment2.xml" value="0.264" />
         <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNews/app/src/main/res/layout/fragment_filter.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNews/app/src/main/res/layout/item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNewsNew/app/src/main/res/layout/activity_main.xml" value="0.1606714628297362" />
+        <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNewsNew/app/src/main/res/layout/fragment1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNewsNew/app/src/main/res/layout/fragment2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNewsNew/app/src/main/res/layout/fragment_filter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNewsNew/app/src/main/res/layout/fragment_test_text_view.xml" value="0.24452554744525548" />
+        <entry key="..\:/Users/legion/Documents/AndroidStudio/FakeNewsNew/app/src/main/res/layout/item_layout.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
@@ -17,5 +23,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4" />
+      </ProjectState>
+    </option>
   </component>
 </project>

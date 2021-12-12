@@ -6,15 +6,15 @@ import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.fakenews.R
 import com.example.fakenews.data.constants.Constants
-import com.example.fakenews.databinding.Fragment2Binding
+import com.example.fakenews.databinding.FragmentRadioGroupBinding
 import com.example.fakenews.presentation.TransmitNavData
 import com.example.fakenews.presentation.enums.AuthorEnum
 import com.example.fakenews.presentation.enums.DateEnum
 import com.example.fakenews.presentation.enums.TopicEnum
 
-class RadioGroupFragment : Fragment(R.layout.fragment2) {
+class RadioGroupFragment : Fragment(R.layout.fragment_radio_group) {
 
-    private val binding: Fragment2Binding by viewBinding(Fragment2Binding::bind)
+    private val binding: FragmentRadioGroupBinding by viewBinding(FragmentRadioGroupBinding::bind)
 
     override fun onResume() {
         super.onResume()

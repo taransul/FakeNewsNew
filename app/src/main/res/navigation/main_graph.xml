@@ -9,17 +9,20 @@
         android:id="@+id/newsFragment"
         android:name="com.example.fakenews.presentation.fragments.NewsFragment"
         android:label="NewsFragment"
-        tools:layout="@layout/fragment1">
+        tools:layout="@layout/fragment_news">
         <action
             android:id="@+id/action_newsFragment_to_radioGroupFragment"
             app:destination="@id/radioGroupFragment"
             />
+        <action
+            android:id="@+id/action_newsFragment_to_testTextViewFragment"
+            app:destination="@id/testTextViewFragment" />
     </fragment>
     <fragment
         android:id="@+id/radioGroupFragment"
         android:name="com.example.fakenews.presentation.fragments.RadioGroupFragment"
         android:label="RadioGroupFragment"
-        tools:layout="@layout/fragment2">
+        tools:layout="@layout/fragment_radio_group">
         <argument
             android:name="ParssesListArgs"
             app:argType="com.example.fakenews.presentation.TransmitNavData" />
@@ -37,6 +40,15 @@
             app:argType="com.example.fakenews.presentation.TransmitNavData" />
         <action
             android:id="@+id/action_filterFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testTextViewFragment"
+        android:name="com.example.fakenews.presentation.fragments.TestTextHeaderFragment"
+        android:label="fragment_test_text_view"
+        tools:layout="@layout/fragment_test_text_view" >
+        <action
+            android:id="@+id/action_testTextViewFragment_to_newsFragment"
             app:destination="@id/newsFragment" />
     </fragment>
 </navigation>

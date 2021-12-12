@@ -9,7 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.fakenews.R
-import com.example.fakenews.databinding.Fragment1Binding
+import com.example.fakenews.databinding.FragmentNewsBinding
 import com.example.fakenews.presentation.NewsFragmentViewModel
 import com.example.fakenews.presentation.NewsViewModelRoom
 import com.example.fakenews.presentation.PassesList
@@ -17,13 +17,13 @@ import com.example.fakenews.presentation.recycler.News
 import com.example.fakenews.presentation.recycler.NewsAdapter
 import org.koin.android.viewmodel.ext.android.viewModel
 
-class NewsFragment : Fragment(R.layout.fragment1) {
+class NewsFragment : Fragment(R.layout.fragment_news) {
 
     private val adapter by lazy { NewsAdapter() }
     private val viewModel by viewModel<NewsFragmentViewModel>()
     private val userViewModel by viewModel<NewsViewModelRoom>()
 
-    val binding: Fragment1Binding by viewBinding(Fragment1Binding::bind)
+    val binding: FragmentNewsBinding by viewBinding(FragmentNewsBinding::bind)
 
     private val passesList: PassesList =
         object : PassesList {
@@ -46,7 +46,9 @@ class NewsFragment : Fragment(R.layout.fragment1) {
 
         binding.imageView.setOnClickListener {
             findNavController().navigate(R.id.action_newsFragment_to_radioGroupFragment)
-
+        }
+        binding.floatingActionButtonHeaderFragment.setOnClickListener {
+            findNavController().navigate(NewsFragmentDirections.actionNewsFragmentToTestTextViewFragment())
         }
     }
 
